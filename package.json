@@ -1,0 +1,29 @@
+{
+  "name": "OUCHI",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./",
+    "clear": "rm -rf ./dist",
+    "build-mac": "electron-builder -m"
+  },
+  "author": "merarli",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "11.0.3",
+    "electron-builder": "22.9.1"
+  },
+  "build": {
+    "productName": "おうちの環境",
+    "appId": "merarli.nature-remo-mac-menu-bar",
+    "mac": {
+      "target": "dir"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^8.6.0"
+  }
+}

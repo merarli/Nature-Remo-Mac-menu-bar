@@ -1,0 +1,11 @@
+.DS_Store
+Thumbd.db
+
+*.log
+
+act/
+node_modules/
+dist/
+
+.idea
+.env
