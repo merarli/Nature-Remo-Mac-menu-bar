@@ -2,6 +2,8 @@
 
 ## 概要
 Nature Remo APIを使用して温度、湿度、照明の明るさ、絶対湿度をMacのメニューバーに表示することができます。
+<img width="269" alt="スクリーンショット 2021-10-06 15 40 19" src="https://user-images.githubusercontent.com/32351460/136152826-8d7ca325-bc01-48cb-9f7a-591d8a9a83a3.png">
+
 
 ## セットアップ
 .envファイルを作成後
