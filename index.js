@@ -1,7 +1,7 @@
 const electron = require('electron')
 const axios = require('axios')
 
-require('dotenv').config()
+require('dotenv').config({ path: __dirname + '/.env' })
 const URL = 'https://api.nature.global/1/devices';
 const API_KEY = process.env["NATURE-REMO-API-KEY"]
 
